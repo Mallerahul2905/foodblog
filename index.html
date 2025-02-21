@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .nav {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: lightcoral;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding: 5%;
+            gap: 1px;
+        }
+
+        img {
+            height: 70vh;
+            width: 95%;
+        }
+
+        .p1 {
+            text-align: center;
+        }
+
+        .p2 {
+            font-size: 0.7rem;
+            word-spacing: 1px;
+            text-align: center;
+        }
+
+        .main2 {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding: 5%;
+            gap: 1%;
+        }
+
+        .P1 {
+            text-align: center;
+        }
+
+        .P2 {
+            font-size: 0.7rem;
+            word-spacing: 1px;
+            text-align: center;
+        }
+
+        .Hovertag {
+            display: grid;
+            grid-template-columns: 3% 3% 3% 3% 3% 3%;
+            justify-content: center;
+        }
+
+        .hover {
+            gap: 2%;
+            font-family: monospace;
+        }
+
+        .Hovertag>.first {
+            height: 60%;
+            width: 60%;
+            background-color: black;
+            color: white;
+        }
+
+        .hover:hover {
+            background-color: black;
+            color: white;
+            height: 60%;
+            width: 70%;
+        }
+
+        #id {
+            text-align: center;
+        }
+
+        .last2 {
+            display: grid;
+            grid-template-rows: 10% 68% 5% 5% 10%;
+            text-align: center;
+        }
+
+        #para {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 1rem;
+        }
+
+        #chef {
+            align-self: center;
+            width: 60%;
+            height: 75vh;
+        }
+
+        #L1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 1rem;
+        }
+
+        #L2 {
+            font-style: italic;
+        }
+
+        #L3 {
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .divv {
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            margin-left: 5%;
+            margin-right: 5%;
+            gap: 10%;
+        }
+
+        .footerr {
+            display: grid;
+            grid-template-rows: 20% 70%;
+        }
+
+        #img1 {
+            width: 80%;
+            height: 80%;
+        }
+
+        #img2 {
+            width: 80%;
+            height: 80%;
+        }
+
+        .Section {
+            display: grid;
+            grid-template-columns: 15% 20%;
+        }
+
+        .Section1 {
+            display: grid;
+            grid-template-columns: 15% 20%;
+        }
+
+        .divvv {
+            display: grid;
+            grid-template-columns: 25% 25% 25%;
+            grid-template-rows: 20% 20% 20% 20%;
+        }
+
+        .divvv>p {
+            height: 50%;
+            width: 80%;
+            border: 1px solid black;
+            background-color: #808080;
+            color: white;
+        }
+
+        .lorem {
+            display: grid;
+            grid-template-rows: 20% 5px;
+        }
+
+        .lorem1 {
+            display: grid;
+            grid-template-rows: 10px;
+        }
+
+        #travel {
+            height: 65%;
+            width: 85%;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div><i class="fa-solid fa-bars"></i></div>
+        <div>
+            <p>My Food</p>
+        </div>
+        <div>Mail</div>
+    </div>
+    <div class="main">
+        <div>
+            <div>
+                <img src="./sandwich.jpg" alt="">
+            </div>
+            <div>
+                <p class="p1">The Perfect Sandwich, A Real NYC Classic</p>
+            </div>
+            <div>
+                <p class="p2">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div>
+            <div><img src="./steak.jpg" alt=""></div>
+            <div>
+                <p class="p1">Let Me Tell You About This Steak</p>
+            </div>
+            <div>
+                <p class="p2">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt
+                    ipsum lipsum.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div><img src="./cherries.jpg" alt=""></div>
+            <div>
+                <p class="p1">Cherries, interrupted</p>
+            </div>
+            <div>
+                <p class="p2">Lorem ipsum text praesent tincidunt ipsum lipsum.
+                    What else?</p>
+            </div>
+        </div>
+        <div>
+            <div><img src="./wine.jpg" alt=""></div>
+            <div>
+                <p class="p1">Once Again, Robust Wine and Vegetable Pasta</p>
+            </div>
+            <div>
+                <p class="p2">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+    </div>
+    <div class="main2">
+        <div>
+            <div><img src="./popsicle.jpg" alt=""></div>
+            <div>
+                <p class="P1">All I Need Is a Popsicle</p>
+            </div>
+            <div>
+                <p class="P2">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div>
+            <div><img src="./salmon.jpg" alt=""></div>
+            <div>
+                <p class="P1">Salmon For Your Skin</p>
+            </div>
+            <div>
+                <p class="P2">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt
+                    ipsum lipsum.</p>
+            </div>
+        </div>
+        <div>
+            <div><img src="./sandwich (1).jpg" alt=""></div>
+            <div>
+                <p class="P1"> Perfect Sandwich, A Real Classic</p>
+            </div>
+            <div>
+                <p class="P2">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div>
+            <div><img src="./croissant.jpg" alt=""></div>
+            <div>
+                <p class="P1">Le French</p>
+            </div>
+            <div>
+                <p class="P2">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+    </div>
+    <div class="Hovertag">
+        <p class="hover">
+            <<< /p>
+                <p class="hover first">1</p>
+                <p class="hover">2</p>
+                <p class="hover">3</p>
+                <p class="hover">4</p>
+                <p class="hover">>></p>
+    </div>
+    <hr>
+    <div class="last2">
+        <div>
+            <p id="para">About Me, The Food Man</p>
+        </div>
+        <div><img src="./chef.jpg" alt="" id="chef"></div>
+        <div>
+            <p id="L1">I am Who I Am!</p>
+        </div>
+        <div>
+            <p id="L2">With Passion For Real, Good Food</p>
+        </div>
+        <div>
+            <p id="L3">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an
+                interest of
+                lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus
+                ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="divv">
+        <div>
+            <section>
+                <p>FOOTER</p>
+            </section>
+            <section>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                    congue gravida diam non fringilla.</p>
+            </section>
+            <section>
+                <p>Powered by w3.css</p>
+            </section>
+        </div>
+        <div>
+            <section>
+                <p>BLOG POSTS</p>
+            </section>
+            <section class="Section">
+                <section>
+                    <p><img src="./workshop.jpg" alt="" id="img1"></p>
+                </section>
+                <section class="lorem">
+                    <p>Lorem</p>
+                    <p>Sed mattis nunc</p>
+                </section>
+            </section>
+            <hr>
+            <section class="Section1">
+                <section>
+                    <p><img src="./gondol.jpg" alt="" id="img2"></p>
+                </section>
+                <section>
+                    <p class="lorem1">Ipsum</p>
+                    <p>Praes tinci sed</p>
+                </section>
+            </section>
+        </div>
+        <div class="footerr">
+            <section>
+                <p>POPULAR TAGS</p>
+            </section>
+            <section class="divvv">
+                <p id="travel">Travel</p>
+                <p>New York</p>
+                <p>Dinner</p>
+                <p>Salmon</p>
+                <p>France</p>
+                <p>Drinks</p>
+                <p>Ideas</p>
+                <p>Flavours</p>
+                <p>Cuisine</p>
+                <p>Dressing</p>
+                <p>Fried</p>
+                <p>Fish</p>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
